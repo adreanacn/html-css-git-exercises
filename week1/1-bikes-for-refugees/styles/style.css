@@ -30,9 +30,16 @@ button {
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
-
 	/*  Challenge: can you make the navigation links orange on hover? */
 }
+
+ a:hover {
+	background-color: rgb(255, 123, 0);
+	
+}
+
+
+
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
@@ -65,7 +72,17 @@ button {
 
 /* Jumbotron */
 .jumbotron {
+	color: white;
+	width: auto;
 	border-radius: 0;
+	background-image: url(file:///Users/adrianaceron/Desktop/MIGRACODE/HTML%20&%20CSS/week%201%20tarea/bikes%20for%20refugees/html-css-git-exercises/week1/1-bikes-for-refugees/images/header-bike.jpg);
+}
+
+/* imagenes*/
+
+.img-fluid {
+width: 20%;
+
 }
 
 /* Headings */
@@ -91,9 +108,14 @@ button {
 }
 
 /* Article */
+
 .article {
 	margin-bottom: 2em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
+
 
 .article__title {
 	margin-bottom: 0.5em;
@@ -114,11 +136,13 @@ button {
 .article__read-more .fa {
 	margin-right: 0.5em;
 	color: #ce5f31;
+	
 }
 
 .article__read-more:last-child {
 	margin-bottom: 0;
 }
+
 
 /* Footer */
 .footer {
@@ -130,6 +154,7 @@ button {
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
+
 
 /* Media queries */
 
