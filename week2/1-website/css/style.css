@@ -15,5 +15,16 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+ button {
 
-
+    background-color: orangered;
+    border-color: orangered;
+    padding: 1rem 1rem;
+    color: white;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: #e96134;
+    border-color: #e96134;
+    cursor: pointer;
+}
