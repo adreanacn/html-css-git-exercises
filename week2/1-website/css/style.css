@@ -1,11 +1,6 @@
 
  /* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
 
-body {
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
-}
-
 /**
  * Add your custom styles below
  * 
@@ -15,6 +10,94 @@ body {
  * 
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
+ 
+ 
+ /**RESET */
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body{
+     margin:0;
+     padding:0;
+ }
+ /**KARMA STYLES */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+header {
+    height:70px;
+    display:flex;
+    align-items:center;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+
+header ul {
+    display:none;
+}
+
+h1{
+    margin:0;
+}
+
+.introduccion{
+    background-image: url("../img/first-background.jpg");
+    min-height: 400px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.offer{
+    padding: 130px 0;
+}
+
+@media screen and (min-width:700px){
+    .offer div{
+        display:flex;
+    }
+}
+
+.offer h3{
+    text-align:center;
+
+}
+
+
+.figure{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+}
+figure img{
+    margin-bottom:50px;
+    width:127;
+    
+}
+
+footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-bottom: 150px;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  button {
 
     background-color: orangered;
@@ -28,3 +111,6 @@ button:hover {
     border-color: #e96134;
     cursor: pointer;
 }
+
+
+ 
