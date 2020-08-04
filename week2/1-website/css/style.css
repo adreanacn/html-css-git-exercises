@@ -37,7 +37,8 @@ header {
 }
 
 header ul {
-    display:none;
+    display:flex;
+    flex-direction: row;
 }
 
 h1{
@@ -57,17 +58,18 @@ h1{
 
 .offer{
     padding: 130px 0;
+    text-align:center
 }
 
 @media screen and (min-width:700px){
-    .offer div{
-        display:flex;
-    }
+   
 }
 
-.offer {
-    text-align:center;
+.offer div{
+    display:flex;
 }
+
+
 
 p{
     font-size: 40px;
