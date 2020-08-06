@@ -16,6 +16,13 @@
  * {
      box-sizing: border-box;
  }
+ *,
+ *::before,
+ *::after {
+box-sizing: inherit;
+ }
+
+ 
  
  body{
      margin:0;
@@ -34,6 +41,7 @@ header {
     position:sticky;
     top:0;
     background-color: white;
+   
 }
 
 header ul {
@@ -61,12 +69,20 @@ h1{
     text-align:center
 }
 
-@media screen and (min-width:700px){
-   
+.offer figure{
+    margin-bottom: 30px;    
 }
 
-.offer div{
-    display:flex;
+.offer img{
+    width: 127px;
+ }
+
+
+@media screen and (min-width:700px){
+    .offer div{
+        display:flex ;
+        justify-content: center;
+    }
 }
 
 
@@ -77,17 +93,6 @@ p{
     text-align: center;
 }
 
-figure{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    margin-bottom: 30px;
-    justify-content: space-around center;
-    width: 125px;
-    margin-left: auto;
-    margin-right: auto;
-
-}
 
 
 
