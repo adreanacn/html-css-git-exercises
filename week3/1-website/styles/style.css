@@ -1,0 +1,50 @@
+/*  Add your styling here */
+
+html{
+    box-sizing: border-box;
+}
+*, 
+*::before, 
+*::after{
+   
+    box-sizing: inherit;
+}
+
+body{
+    margin:0;
+}
+
+h1 {
+    background-color: rgb(159, 100, 182);
+    height: 150px;
+}
+
+.box  
+{
+   
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.menu {
+    background-color: rgb(151, 104, 184);
+     width: 100px;
+    
+}
+
+ul {
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(180, 138, 228);
+    color: pink;
+    padding: 0;
+margin-bottom: auto;    
+
+} 
+
+li {
+    display: inline;
+    }
