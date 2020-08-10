@@ -11,28 +11,34 @@ html{
 }
 
 body{
-    margin:0;
+    margin:1px;
 }
 
-h1 {
+.box1 {
     background-color: rgb(159, 100, 182);
     height: 150px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.box0{
+    background-color: rgb(124, 211, 182);
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .box  
 {
-   
     height: 60px;
     display:flex;
     justify-content: center;
     width:100%;
+    padding-top: 10px;
 }
 
-.menu {
-    background-color: rgb(151, 104, 184);
-     width: 100px;
-    
-}
 
 ul {
     font-family: Arial;
@@ -41,10 +47,31 @@ ul {
     background-color: rgb(180, 138, 228);
     color: pink;
     padding: 0;
-margin-bottom: auto;    
+    margin-bottom: auto;    
 
 } 
 
 li {
     display: inline;
+    
     }
+
+.box2{
+    background-color: rgb(117, 189, 231);
+    width: 20em;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box3 {
+    background-color: rgb(219, 191, 114);
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 300px;
+    text-align: center;
+    padding: 30px;
+}
