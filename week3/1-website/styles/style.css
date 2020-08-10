@@ -61,17 +61,31 @@ li {
     width: 20em;
     height: 400px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-left: 20px;
 }
 
 
 .box3 {
     background-color: rgb(219, 191, 114);
-    width: 200px;
-    height: 100px;
-    margin-top: 20px;
-    margin-bottom: 300px;
-    text-align: center;
     padding: 30px;
+}
+
+.box4{
+    background-color: rgb(241, 158, 241);
+    width: 55em;
+    margin-left: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: end;
+}
+
+img{
+    width:25em;
+    padding-top: 50px;
+    margin-left: 250px;
 }
